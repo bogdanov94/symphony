@@ -2,11 +2,11 @@ Given('User navigates to homescreen') do
     find_element(id:"desc_text")
   end
     
-  Then('User clicks on See Hot it Works button') do
+  Then('User clicks on See How it Works button') do
     find_element(id:"seehowitwork").click
   end
     
-  Then('User redirected to carousele with pictures page') do
+  Then('User redirected to page with pictures carousel') do
     while find_element(id:"next").displayed?
       find_element(id:"next").click
     end
