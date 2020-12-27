@@ -18,12 +18,6 @@ Usually the app package is set in `env.rb`. APK file should be inside of `suppor
 
     gem install bundler
     bundle install
- 
-#### Environment variables
-
-You should define PLATFORM_NAME with the value  `android` :
-
-    export PLATFORM_NAME=android
 
 #### Running tests
 
